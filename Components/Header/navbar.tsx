@@ -36,7 +36,7 @@ const company=`Cosmic`
 
                 <Link href="/" className='flex items-center space-x-3 transition-opacity duration-300 hover:opacity-80'>
                     <img
-                        className='rounded-full border-2 border-green-500 object-cover'  
+                        className='animate-spin [animation-duration:20s] rounded-full border-2 border-green-500 object-cover'  
                         src={infor.image}
                         alt="Github profile Photo" 
                         width={50}

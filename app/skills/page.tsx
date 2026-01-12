@@ -38,8 +38,10 @@ const SkillsPage = () => {
   const back=<Backpack/>
   const test=<TextSearchIcon/>
     return (
-
-        <main className="bg-gray-500 min-h-screen py-20">
+        <>
+        
+        <div id="temple-bg" className="absolute inset-0 "></div>
+        <main  className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-blue-400 to-gray-800opacity-100 ">
             <div className="container mx-auto px-6 lg:px-12">
 
                 <header className="text-center mb-16">
@@ -114,8 +116,8 @@ const SkillsPage = () => {
                     </div>
                 </div>
             </div>
-
         </main>
+    </>
     );
 }
 

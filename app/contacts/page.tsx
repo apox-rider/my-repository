@@ -19,10 +19,9 @@ const ContactForm: React.FC = () =>{
             
             const SERVICE_ID=process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!
             const TEMPLATE_ID=process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!
-            const PUBLIC_KEY= 'oWFeHT7mXMLkDC9pP'
+            const PUBLIC_KEY=process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
             
-            emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, 
-                {publicKey: PUBLIC_KEY})
+            emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current,PUBLIC_KEY)
                 .then(()=>{
                     setStatus('success');
                     form.current?.reset();
@@ -47,6 +46,7 @@ const ContactForm: React.FC = () =>{
 const fullName=infor.firstName + " " + infor.middleName + " " + infor.surName;
     
     return (
+        
         <form ref={form} onSubmit={sendEmail} className="space-y-6"  >
             <h3 className="text-2xl font-bold text-gray-900">Send Me a Message</h3>
             
@@ -145,7 +145,9 @@ export default function ContactsPage() {
         }
   const fullName=infor.firstName + " " + infor.middleName + " " + infor.surName;
     return (
-        <main className="bg-gray-500 min-h-screen py-20">
+        <>
+        <div id="temple-bg" className="absolute inset-0 "></div>
+        <main className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-blue-400 to-gray-800opacity-100 ">
             <div className="container mx-auto px-6 lg:px-12">
 
                 <header className="text-center mb-16">
@@ -211,6 +213,7 @@ export default function ContactsPage() {
             </div>
             
         </main>
+        </>
     );
 
 }

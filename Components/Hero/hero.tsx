@@ -14,7 +14,11 @@ const Hero = () => {
   }
   const fullName=infor.firstName + " " + infor.middleName + " " + infor.surName;
     return (
-        <section className="min-h-screen flex items-center bg-gray-500 py-20">
+      <>
+      <div className="relative h-screen w-screen overflow-hidden">
+        <div className="absolute inset-0 bg-temple-pattern bg-base-purple min-h-screen bg-no-repeat bg-size-[152px_152px]"></div>
+        <div id="temple-bg" className="absolute inset-0 "></div>
+        <div className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-blue-400 to-gray-800opacity-100 ">
   
           <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
@@ -23,7 +27,7 @@ const Hero = () => {
       
 
       <div className="space-y-2">
-        <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-black-900 leading-tight">
+        <h1 className="animate-bounce font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-black-900 leading-tight">
            {fullName.toUpperCase()}
         </h1>
         <h2 className="text-xl sm:text-2xl font-semibold text-emerald-900">
@@ -71,7 +75,7 @@ const Hero = () => {
 
     <div className="order-1 md:order-2 flex justify-center">
       <img
-        className="rounded-full object-cover shadow-2xl border-4 border-emerald-500 w-80 h-80 lg:w-96 lg:h-96 transform hover:scale-105 transition duration-500"
+        className="animate-pulse rounded-full object-cover shadow-2xl border-4 border-emerald-500 w-80 h-80 lg:w-96 lg:h-96 transform hover:scale-105 transition duration-500"
         src= {infor.image}
         alt="my github profile"
         width={400}
@@ -80,7 +84,9 @@ const Hero = () => {
     </div>
 
   </div>
-</section>
+</div>
+</div>
+</>
     );
 }
 
