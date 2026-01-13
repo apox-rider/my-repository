@@ -15,7 +15,7 @@ const Hero = () => {
   const fullName=infor.firstName + " " + infor.middleName + " " + infor.surName;
     return (
       <>
-      <div className="relative h-screen w-screen overflow-hidden">
+      <div className="relative   ">
         <div className="absolute inset-0 bg-temple-pattern bg-base-purple min-h-screen bg-no-repeat bg-size-[152px_152px]"></div>
         <div id="temple-bg" className="absolute inset-0 "></div>
         <div className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-blue-400 to-gray-800opacity-100 ">
