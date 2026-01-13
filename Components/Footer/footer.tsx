@@ -15,10 +15,16 @@ export default function Footer(){
 
 
             <div className="flex justify-center gap-8 text-sm">
-              <a href="/" className="hover:text-emerald-400 transition-colors">Home</a>
-              <a href="/about" className="hover:text-emerald-400 transition-colors">About</a>
-              <a href="/projec" className="hover:text-emerald-400 transition-colors">Projects</a>
-              <a href="/contacts" className="hover:text-emerald-400 transition-colors">Contact</a>
+              <button  className="hover:text-emerald-400 transition-colors">Apox</button>
+              <button className="bg-blue-500 hover:bg-indigo-500 text-white font-bold py-2 px-4 
+               transition-colors duration-300000 ease-in-out w-3xl rounded-2xl flex justify-center gap-8">
+                  <a href="#" className=" text-amber-950 hover:text-emerald-400 transition-colors font-black">A</a>
+                  <a href="#" className=" text-amber-950 hover:text-emerald-400 transition-colors">.</a>
+                  <a href="#" className=" text-amber-950 hover:text-emerald-400 transition-colors font-black">R</a>
+                  <a href="#" className="text-amber-950 hover:text-emerald-400 transition-colors">.</a>
+                  <a href="#" className="text-amber-950 hover:text-emerald-400 transition-colors font-black">A</a>
+              </button>
+              <button  className="hover:text-emerald-400 transition-colors">Rider</button>
             </div>
 
 

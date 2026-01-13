@@ -158,10 +158,8 @@ export default function ContactsPage() {
 
                 <header className="text-center mb-16">
                     <h1 className="text-5xl font-extrabold text-gray-900 mb-2 font-serif"> Wanna build something great? </h1>
-                    <p className="text-xl text-red-900">I&apos;m ready to discuss new opportunities, challenging projects, or a role on your team.</p>
-                    <Link href="/" className="text-lg text-emerald-900 hover:underline mt-4 inline-block font-medium">
-                        ← Back to Home Page
-                    </Link>
+                    <p className="text-xl text-red-100">I&apos;m ready to discuss new opportunities, challenging projects, or a role on your team.</p>
+                     
                 </header>
 
 

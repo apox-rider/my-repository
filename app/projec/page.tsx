@@ -147,12 +147,6 @@ const ProjectsPage = () => {
               <p className="text-xl sm:text-2xl font-semibold text-emerald-800 tracking-wide">
                 Selected works showcasing technical depth & real-world impact at {company}
               </p>
-              <Link
-                href="/"
-                className="text-lg text-teal-700 hover:text-teal-500 hover:underline mt-5 inline-block font-medium transition"
-              >
-                ← Back to Home
-              </Link>
             </header>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-16 items-start">

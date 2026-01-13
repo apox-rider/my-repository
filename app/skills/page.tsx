@@ -49,9 +49,6 @@ const SkillsPage = () => {
                 <header className="text-center mb-16">
                     <h1 className="text-5xl font-extrabold text-gray-900 mb-2 font-serif">My Tech Speciality</h1>
                     <p className="text-xl text-orange-800">The core technologies and strategic mastery that drive Cosmic to it's development.</p>
-                    <Link href="/" className="text-lg text-emerald-900 hover:underline mt-4 inline-block font-medium">
-                        ← Back to Home Page
-                    </Link>
                 </header>
 
 
