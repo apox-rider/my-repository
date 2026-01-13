@@ -20,10 +20,10 @@ const Hero = () => {
   const fullName=infor.firstName + " " + infor.middleName + " " + infor.surName;
     return (
       <>
-      <div className="relative   ">
+      <div className="relative ">
         <div className="absolute inset-0 bg-temple-pattern bg-base-purple min-h-screen bg-no-repeat bg-size-[152px_152px]"></div>
         <div id="temple-bg" className="absolute inset-0 "></div>
-        <div className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-blue-400 to-gray-800opacity-100 ">
+        <div className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
   
           <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
@@ -41,7 +41,7 @@ const Hero = () => {
     </div>
 
 
-      <div className="text-lg text-red-900 space-y-4">
+      <div className="text-lg text-red-100 space-y-4">
         <p>
           My role is rooted in strategic vision and full-cycle product development. As the Founder, I understand the critical intersection of business goals and technical execution, translating ambitious concepts into highly functional, scalable, and user-centric web applications.
         </p>
@@ -86,7 +86,7 @@ const Hero = () => {
     </div>
       
 
-      <div className="flex flex-col sm:flex-row gap-5 pt-8 justify-center md:justify-start">
+      <div className=" mb-3.5 flex flex-col sm:flex-row gap-5 pt-8 justify-center md:justify-start">
       <a
         href="https://github.com/apox-rider?tab=repo"
         className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-linear-to-r from-emerald-600 to-teal-600 rounded-xl shadow-xl hover:from-emerald-700 hover:to-teal-700 hover:shadow-2xl hover:scale-[1.03] focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 transition-all duration-300"

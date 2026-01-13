@@ -151,7 +151,7 @@ export default function ContactsPage() {
         <>
         <div id="temple-bg" className="absolute inset-0 "></div>
         <Navbar/>
-        <main className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-blue-400 to-gray-800opacity-100 ">
+        <main className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
             <div className="container mx-auto px-6 lg:px-12">
 
                 <header className="text-center mb-16">

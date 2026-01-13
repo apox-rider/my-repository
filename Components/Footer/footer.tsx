@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <>
-         <footer className="bg-linear-to-t from-gray-900 to-gray-800 text-gray-300 py-10 px-6 mt-auto">
+         <footer className="bg-linear-to-r from-gray-900 to-gray-800 text-gray-300 py-10 px-6 mt-auto">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
 
             <div className="text-center md:text-left">
@@ -17,7 +17,7 @@ export default function Footer(){
             <div className="flex justify-center gap-8 text-sm">
               <a href="/" className="hover:text-emerald-400 transition-colors">Home</a>
               <a href="/about" className="hover:text-emerald-400 transition-colors">About</a>
-              <a href="/Projects" className="hover:text-emerald-400 transition-colors">Projects</a>
+              <a href="/projec" className="hover:text-emerald-400 transition-colors">Projects</a>
               <a href="/contacts" className="hover:text-emerald-400 transition-colors">Contact</a>
             </div>
 
