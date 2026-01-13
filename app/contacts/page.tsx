@@ -149,9 +149,11 @@ export default function ContactsPage() {
   const fullName=infor.firstName + " " + infor.middleName + " " + infor.surName;
     return (
         <>
-        <div id="temple-bg" className="absolute inset-0 "></div>
         <Navbar/>
-        <main className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
+        <div className="relative ">
+        <div className="absolute inset-0 bg-temple-pattern bg-base-purple min-h-screen bg-repeat bg-size-[152px_152px]"></div>
+        <div id="temple-bg" className="absolute inset-0 "></div>
+        <main className=" min-h-screen relative z-10 flex h-full items-center justify-center  bg-linear-to-r from-gray-900 to-gray-800opacity-100 bg-repeat">
             <div className="container mx-auto px-6 lg:px-12">
 
                 <header className="text-center mb-16">
@@ -208,7 +210,7 @@ export default function ContactsPage() {
                         </div>
 
                         <div className="text-center md:text-left pt-4">
-                            <h3 className="text-xl font-bold text-gray-800 mb-2">Location</h3>
+                            <h3 className="text-xl font-bold text-gray-800 ">Location</h3>
                             <p className="text-lg text-green-900">Currently based in Dar es Salaam, Tanzania (EAT)</p>
                         </div>
                     </div>
@@ -216,6 +218,7 @@ export default function ContactsPage() {
                 </div>
             </div>
         </main>
+        </div>
         <Footer/>
         </>
     );

@@ -136,7 +136,7 @@ const ProjectsPage = () => {
       <Navbar />
 
       <div className="relative ">
-        <div className="absolute inset-0 bg-temple-pattern bg-base-purple bg-no-repeat bg-size-[152px_152px]"></div>
+        <div className="absolute inset-0 bg-temple-pattern bg-base-purple bg-repeat bg-size-[152px_152px]"></div>
         <div id="temple-bg" className="absolute inset-0"></div>
         <div className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
           <div className="container mx-auto px-6 lg:px-12 py-20">
@@ -156,7 +156,7 @@ const ProjectsPage = () => {
             </header>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-              {/* Left column – principles (like hero text) */}
+
               <div className="lg:col-span-5 space-y-10 order-2 md:order-1">
                 <div className="space-y-6">
                   <h2 className="text-3xl sm:text-4xl font-bold text-gray-100 tracking-tight">

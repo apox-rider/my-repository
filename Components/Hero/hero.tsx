@@ -21,7 +21,7 @@ const Hero = () => {
     return (
       <>
       <div className="relative ">
-        <div className="absolute inset-0 bg-temple-pattern bg-base-purple min-h-screen bg-no-repeat bg-size-[152px_152px]"></div>
+        <div className="absolute inset-0 bg-temple-pattern bg-base-purple min-h-screen bg-repeat bg-size-[152px_152px]"></div>
         <div id="temple-bg" className="absolute inset-0 "></div>
         <div className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
   

@@ -41,6 +41,7 @@ const SkillsPage = () => {
     return (
         <>
         <Navbar/>
+        <div className="relative ">
         <div id="temple-bg" className="absolute inset-0 "></div>
         <main  className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
             <div className="container mx-auto px-6 lg:px-12">
@@ -118,6 +119,7 @@ const SkillsPage = () => {
                 </div>
             </div>
         </main>
+        </div>
     <Footer/>
     </>
     );
