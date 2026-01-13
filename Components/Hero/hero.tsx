@@ -1,7 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-
-
+import { FaReact } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaDocker } from "react-icons/fa";
 const Hero = () => {
   const company=`Cosmic`
   const infor={
@@ -53,12 +57,12 @@ const Hero = () => {
       <div className="pt-6">
         <h3 className="text-xl font-bold text-gray-800 mb-4 md:text-left text-center">Core Tech Stack:</h3>
         <div className="flex flex-wrap justify-center md:justify-start gap-6">
-         <div className="p-3 bg-amber-500 rounded-full shadow-md"> React</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md">⚡ Next.js</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md"> Node.js</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md"> TypeScript</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md"> Tailwind CSS</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md">Docker</div>
+         <div className="p-3 bg-amber-500 rounded-full shadow-md"><FaReact />React</div>
+          <div className="p-3 bg-amber-500 rounded-4xl shadow-md"><RiNextjsFill />Next.js</div>
+          <div className="p-3 bg-amber-500 rounded-full shadow-md"><FaNodeJs />Node.js</div>
+          <div className="p-3 bg-amber-500 rounded-full shadow-md"> <SiTypescript />TypeScript</div>
+          <div className="p-3 bg-amber-500 rounded-full shadow-md"><RiTailwindCssFill />Tailwind CSS</div>
+          <div className="p-3 bg-amber-500 rounded-full shadow-md"><FaDocker />Docker</div>
         </div>
       </div>
       
