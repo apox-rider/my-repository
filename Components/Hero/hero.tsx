@@ -32,7 +32,7 @@ const Hero = () => {
       
 
       <div className="space-y-3">
-      <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight bg-linear-to-r from-emerald-800 via-emerald-700 to-teal-800 bg-clip-text text-transparent leading-none">
+      <h1 className=" animate-bounce font-serif text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight bg-linear-to-r from-emerald-800 via-emerald-700 to-teal-800 bg-clip-text text-transparent leading-none">
         {fullName.toUpperCase()}
       </h1>
       <h2 className="text-2xl sm:text-3xl font-semibold text-emerald-800 dark:text-emerald-300 tracking-wide">

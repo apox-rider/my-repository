@@ -25,8 +25,9 @@ const AboutPage = () => {
     <div className="relative ">
         <div id="temple-bg" className="absolute inset-0 "></div>
 
-        <div className="relative z-10 bg-temple-pattern bg-base-purple min-h-screen bg-repeat bg-size-[152px_152px]  inset-0 bg-linear-to-r from-gray-900 to-gray-800opacity-100  ">
-          <div className="container mx-auto px-6 lg:px-12 py-16 md:py-24">
+        <div className="relative z-10 bg-temple-pattern  min-h-screen bg-no-repeat bg-size-[152px_152px]   ">
+          <div className='bg-linear-to-r from-gray-900 to-gray-800opacity-100'>
+          <div className="container mx-auto px-6 lg:px-12 py-16 md:py-24  inset-0 ">
 
             <header className="text-center mb-16 md:mb-20">
               <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight bg-linear-to-r from-emerald-800 via-emerald-700 to-teal-800 bg-clip-text text-transparent leading-none mb-4">
@@ -181,6 +182,7 @@ const AboutPage = () => {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
 
