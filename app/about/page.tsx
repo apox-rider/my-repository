@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaGithub } from 'react-icons/fa';
-import { SiFreecodecamp, SiReact } from 'react-icons/si';
+import { Si30Secondsofcode, SiCsdn, SiFreecodecamp, SiReact } from 'react-icons/si';
 import Navbar from '@/Components/Header/navbar';
 import Footer from '@/Components/Footer/footer';
 
@@ -84,7 +84,7 @@ const AboutPage = () => {
                     ].map((item, i) => (
                       <div
                         key={i}
-                        className="bg-gray-800/30 backdrop-blur-sm border border-gray-700/40 rounded-xl p-6 hover:border-emerald-600/50 transition-colors group"
+                        className="bg-gray-900/30 backdrop-blur-sm border border-gray-700/40 rounded-xl p-6 hover:border-emerald-600/50 transition-colors group"
                       >
                         <div className="flex items-center gap-4">
                           <div className="w-3 h-3 rounded-full bg-emerald-500 group-hover:bg-teal-400 transition-colors" />
@@ -106,7 +106,7 @@ const AboutPage = () => {
                   </h3>
                   <div className="space-y-5 text-lg text-gray-300">
                     <p>
-                      Alongside formal education, I dove deep into online learning: CS50, freeCodeCamp, W3Schools, YouTube tutorials, documentation crawls — anything I could find. Every concept I learned came from relentless curiosity and hands-on experimentation.
+                      Alongside formal education, I dove deep into online learning:  CS50, freeCodeCamp, W3Schools, YouTube tutorials, documentation crawls — anything I could find. Every concept I learned came from relentless curiosity and hands-on experimentation.
                     </p>
                     <p>
                       This path taught me that real mastery comes from <strong>building</strong>, breaking things, fixing them, and asking “what if…?” — not just watching videos.

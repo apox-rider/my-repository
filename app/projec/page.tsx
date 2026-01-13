@@ -141,11 +141,11 @@ const ProjectsPage = () => {
         <div className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
           <div className="container mx-auto px-6 lg:px-12 py-20">
             <header className="text-center mb-16 md:mb-20">
-              <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight bg-linear-to-r from-emerald-800 via-emerald-700 to-teal-800 bg-clip-text text-transparent leading-none mb-3">
+              <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight bg-linear-to-r from-gray-900 via-gray-900 to-gray-800 bg-clip-text text-transparent leading-none mb-3">
                 PROJECTS
               </h1>
               <p className="text-xl sm:text-2xl font-semibold text-emerald-800 tracking-wide">
-                Selected works showcasing technical depth & real-world impact at {company}
+                Selected works showcasing technical depth & real-world impact at <h1>Cosmic™️</h1>
               </p>
             </header>
 
