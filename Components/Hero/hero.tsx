@@ -31,14 +31,14 @@ const Hero = () => {
           <div className="order-2 md:order-1 text-center md:text-left space-y-8">
       
 
-      <div className="space-y-2">
-        <h1 className="animate-bounce font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-black-900 leading-tight">
-           {fullName.toUpperCase()}
-        </h1>
-        <h2 className="text-xl sm:text-2xl font-semibold text-emerald-900">
-           {infor.role}
-        </h2>
-      </div>
+      <div className="space-y-3">
+      <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight bg-linear-to-r from-emerald-800 via-emerald-700 to-teal-800 bg-clip-text text-transparent leading-none">
+        {fullName.toUpperCase()}
+      </h1>
+      <h2 className="text-2xl sm:text-3xl font-semibold text-emerald-800 dark:text-emerald-300 tracking-wide">
+        {infor.role}
+      </h2>
+    </div>
 
 
       <div className="text-lg text-red-900 space-y-4">
@@ -54,27 +54,52 @@ const Hero = () => {
       </div>
 
 
-      <div className="pt-6">
-        <h3 className="text-xl font-bold text-gray-800 mb-4 md:text-left text-center">Core Tech Stack:</h3>
-        <div className="flex flex-wrap justify-center md:justify-start gap-6">
-         <div className="p-3 bg-amber-500 rounded-full shadow-md"><FaReact />React</div>
-          <div className="p-3 bg-amber-500 rounded-4xl shadow-md"><RiNextjsFill />Next.js</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md"><FaNodeJs />Node.js</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md"> <SiTypescript />TypeScript</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md"><RiTailwindCssFill />Tailwind CSS</div>
-          <div className="p-3 bg-amber-500 rounded-full shadow-md"><FaDocker />Docker</div>
-        </div>
+      <div className="pt-4">
+      <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 md:text-left text-center">
+        Core Tech Stack
+      </h3>
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-4 md:gap-5">
+        {[
+          { Icon: FaReact, name: "React", color: "from-blue-500/80 to-cyan-500/80" },
+          { Icon: RiNextjsFill, name: "Next.js", color: "from-gray-900 to-black/90" },
+          { Icon: FaNodeJs, name: "Node.js", color: "from-green-600/80 to-emerald-600/80" },
+          { Icon: SiTypescript, name: "TypeScript", color: "from-blue-600/80 to-indigo-600/80" },
+          { Icon: RiTailwindCssFill, name: "Tailwind CSS", color: "from-teal-500/80 to-cyan-600/80" },
+          { Icon: FaDocker, name: "Docker", color: "from-blue-700/80 to-blue-900/80" },
+        ].map(({ Icon, name, color }, i) => (
+          <div
+            key={name}
+            className={`
+              group relative flex flex-col items-center gap-2 p-5 rounded-2xl
+              bg-linear-to-br ${color}
+              text-white font-medium shadow-lg
+              hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.04]
+              transition-all duration-300 ease-out
+              border border-white/10 backdrop-blur-sm
+            `}
+          >
+            <Icon className="w-9 h-9 sm:w-10 sm:h-10 opacity-95 group-hover:opacity-100 transition-opacity" />
+            <span className="text-sm sm:text-base font-semibold tracking-wide">{name}</span>
+          </div>
+        ))}
       </div>
+    </div>
       
 
-      <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-8 justify-center md:justify-start">
-        <button className="bg-emerald-600 text-white font-bold py-4 px-8 rounded-lg shadow-xl hover:bg-emerald-700 transition duration-300 transform hover:scale-105">
-          <a href='https://github.com/apox-rider?tab=repo'>View Featured Projects</a>
-        </button>
-        <button className="border border-gray-300 text-gray-800 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition duration-300">
-          <a href=' https://www.linkedin.com/in/avith-apolinary-52a651396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'>Connect on LinkedIn</a>
-        </button>
-      </div>
+      <div className="flex flex-col sm:flex-row gap-5 pt-8 justify-center md:justify-start">
+      <a
+        href="https://github.com/apox-rider?tab=repo"
+        className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-linear-to-r from-emerald-600 to-teal-600 rounded-xl shadow-xl hover:from-emerald-700 hover:to-teal-700 hover:shadow-2xl hover:scale-[1.03] focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 transition-all duration-300"
+      >
+        View Featured Projects
+      </a>
+      <a
+        href="https://www.linkedin.com/in/avith-apolinary-52a651396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        className="inline-flex items-center justify-center px-8 py-4 text-base font-bold border-2 border-emerald-600/70 text-emerald-700 dark:text-emerald-300 rounded-xl hover:bg-emerald-50/50 dark:hover:bg-emerald-950/30 hover:border-emerald-600 hover:shadow-lg transition-all duration-300"
+      >
+        Connect on LinkedIn
+      </a>
+    </div>
       
     </div>
 
