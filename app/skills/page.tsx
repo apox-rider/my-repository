@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ToolCase ,Backpack , TextSearchIcon } from 'lucide-react';
 import Footer from '@/Components/Footer/footer';
+import Navbar from '@/Components/Header/navbar';
 
  
 interface SkillItemProps {
@@ -39,7 +40,7 @@ const SkillsPage = () => {
   const test=<TextSearchIcon/>
     return (
         <>
-        
+        <Navbar/>
         <div id="temple-bg" className="absolute inset-0 "></div>
         <main  className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-blue-400 to-gray-800opacity-100 ">
             <div className="container mx-auto px-6 lg:px-12">
@@ -103,7 +104,7 @@ const SkillsPage = () => {
                         </div>
 
 
-                        <div>
+                        <div className='mb-4'>
                             <h3 className="text-3xl font-extrabold text-gray-900 mb-6 border-b pb-2">Data, Testing & DevOps</h3>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <SkillItem icon={test} name="MongoDB" description="Advanced indexing, aggregation pipelines, and schema design." />
@@ -117,6 +118,7 @@ const SkillsPage = () => {
                 </div>
             </div>
         </main>
+    <Footer/>
     </>
     );
 }

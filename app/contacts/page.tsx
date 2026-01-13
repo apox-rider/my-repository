@@ -3,6 +3,9 @@ import React, { useRef, useState } from 'react';
 import Link from 'next/link';
 import { Link2, Mail, Phone, Store } from 'lucide-react';
 import emailjs from '@emailjs/browser'
+import Footer from '@/Components/Footer/footer';
+import Navbar from '@/Components/Header/navbar';
+ 
 
 
 
@@ -147,6 +150,7 @@ export default function ContactsPage() {
     return (
         <>
         <div id="temple-bg" className="absolute inset-0 "></div>
+        <Navbar/>
         <main className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-blue-400 to-gray-800opacity-100 ">
             <div className="container mx-auto px-6 lg:px-12">
 
@@ -211,8 +215,8 @@ export default function ContactsPage() {
                     
                 </div>
             </div>
-            
         </main>
+        <Footer/>
         </>
     );
 
