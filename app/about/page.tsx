@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaGithub } from 'react-icons/fa';
-import { Si30Secondsofcode, SiCsdn, SiFreecodecamp, SiReact } from 'react-icons/si';
+import { Si30Secondsofcode, SiArtifacthub, SiCsdn, SiFreecodecamp, SiLetterboxd, SiReact } from 'react-icons/si';
 import Navbar from '@/Components/Header/navbar';
 import Footer from '@/Components/Footer/footer';
 
@@ -115,7 +115,7 @@ const AboutPage = () => {
                     <div className="pt-4 border-t border-gray-700/50">
                       <h4 className="text-xl font-semibold text-emerald-300 mb-3">A piece of advice to fellow developers:</h4>
                       <blockquote className="italic text-gray-200 border-l-4 border-emerald-600 pl-5 py-1">
-                        Don’t wait to feel “ready”. Start building small projects today — even if they’re ugly or broken. Curiosity + consistent action beats perfect planning every time. The best way to learn is to ship, receive feedback, iterate, repeat.
+                        Don’t wait to feel “ready”. Start building small projects today — even if they’re ugly or broken. Curiosity + consistent action beats perfect planning every time. Remember, without commitment you'll never start and without consistency, you'll never finish. The best way to learn is to ship, receive feedback, iterate, repeat.
                       </blockquote>
                     </div>
                   </div>
@@ -162,7 +162,36 @@ const AboutPage = () => {
                     </div>
                   </div>
                 </section>
+                
+                <section className="bg-linear-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-md border border-emerald-700/40 rounded-2xl p-7 md:p-9 shadow-xl hover:border-teal-600/60 transition-colors">
+                    <h3 className="text-2xl md:text-3xl font-bold bg-linear-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-5">
+                      Let's Create Together 🎨
+                    </h3>
+                    <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+                      I'm still growing as an artist — I'm definitely not perfect! If you're into <strong>drawing</strong>, <strong>digital painting</strong>, traditional sketching, concept art, or anything visual, I'd love to connect.
+                    </p>
+                    <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+                      Whether it's sharing ideas, giving/receiving constructive feedback, brainstorming concepts, or even collaborating on small pieces from time to time — feel free to reach out. Two (or more) perspectives almost always make the work better.
+                    </p>
 
+                    <div className="flex flex-wrap gap-4 mt-4">
+                      <Link
+                        href="/contacts"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-emerald-700 to-teal-700 hover:from-emerald-600 hover:to-teal-600 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-all"
+                      >
+                        <span>Message me about art</span>
+                        <span className="text-xl"><SiArtifacthub/></span>
+                      </Link>
+                      <Link
+                        href={infor.gitHub}
+                        target="_blank"
+                        className="inline-flex items-center gap-2 px-6 py-3 border border-emerald-600/70 text-emerald-300 font-semibold rounded-xl hover:bg-emerald-950/40 transition-all"
+                      >
+                        <FaGithub />
+                        <span>Find me elsewhere</span>
+                      </Link>
+                    </div>
+                  </section>
 
                 <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-end pt-4">
                   <Link
