@@ -5,6 +5,7 @@ import { Link2, Mail, Phone, Store } from 'lucide-react';
 import emailjs from '@emailjs/browser'
 import Footer from '@/Components/Footer/footer';
 import Navbar from '@/Components/Header/navbar';
+import { SiGithub, SiInstagram, SiMailboxdotorg, SiMaildotcom, SiWhatsapp } from 'react-icons/si';
  
 
 
@@ -132,10 +133,10 @@ const ContactLink: React.FC<ContactLinkProps> = ({ icon, label, value, href }) =
 
 export default function ContactsPage() {
    const company=`Cosmic`
-     const mail=<Mail/>
-     const link=<Link2/>
-     const call=<Phone/>
-     const git=<Store/>
+     const mail=<SiMailboxdotorg/>
+     const link=<SiInstagram/>
+     const call=<SiWhatsapp/>
+     const git=<SiGithub/>
         const infor={
             firstName:"Avith",
             middleName:"Rwegoshora",
