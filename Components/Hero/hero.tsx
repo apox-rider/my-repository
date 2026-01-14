@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="relative ">
         <div className="absolute inset-0 bg-temple-pattern bg-base-purple min-h-screen bg-repeat bg-size-[152px_152px]"></div>
         <div id="temple-bg" className="absolute inset-0 "></div>
-        <div className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
+        <div className=" animate-ping min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
   
           <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
