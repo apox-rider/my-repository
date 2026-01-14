@@ -101,33 +101,33 @@ const ProjectsPage = () => {
       repoUrl: "https://github.com/apox-rider/civ_stack",
     },
     {
-      title: "Performance & Analytics Dashboard",
+      title: "AI ",
       description:
-        "Internal tool tracking Lighthouse scores, Core Web Vitals, optimization insights and performance regressions.",
-      technologies: "React • Chart.js • Vercel Analytics • Next.js API",
-      liveUrl: "https://perf.cosmic.example.com",
+      " I'm building a lightweight, friendly AI chatbot designed for normal everyday conversations and practical daily use — still in the very early stages.What it does (simple version):You type or (eventually) speak normal messages like you would to a friend or helper → the bot understands casual language and replies in a natural, helpful, non-robotic way → useful for quick chats, asking questions, getting reminders, casual banter, explaining things simply, or just passing time.",
+      technologies: "Python",
+      repoUrl: "https://github.com/apox-rider/AI",
     },
     {
-      title: "Real-time Collaboration Suite",
+      title: "Online diary",
       description:
-        "Chat, notifications and live updates module used across Cosmic products with typing indicators & file support.",
-      technologies: "Socket.io • Next.js • Prisma • PostgreSQL • Tailwind",
-      repoUrl: "https://github.com/apox-rider/realtime-chat",
-    },
-    {
-      title: "Dockerized Microservices Starter",
-      description:
-        "Ready-to-deploy template for scalable Node.js services including Docker Compose, CI/CD patterns and monitoring.",
-      technologies: "Docker • Node.js • Express • TypeScript • Jest",
-      repoUrl: "https://github.com/apox-rider/docker-node-boilerplate",
+      " Your private space for life's moments. Write whatevers on your mind — dreams, reflections, people who matter, little details worth remembering — all safely tucked away. When the time feels right, share a single memory or page with friends, family, or loved ones through a simple, secure link that only they can access. Your diary, your rules.",
+      technologies: "Typescript • Node.js  • Javascript • Supabase ",
+      repoUrl: "https://github.com/apox-rider/me_ppo",
     },
     {
       title: "Personal Portfolio v2",
       description:
-        "This very site — modern Next.js architecture, excellent performance scores, clean code structure and elegant design.",
+      "This very site — modern Next.js architecture, excellent performance scores, clean code structure and elegant design.",
       technologies: "Next.js App Router • Tailwind CSS • TypeScript • Vercel",
-      liveUrl: "https://avith.dev",
-      repoUrl: "https://github.com/apox-rider/portfolio",
+      liveUrl: "https://my-repository-lac-six.vercel.app",
+      repoUrl: "https://github.com/apox-rider/my-repository",
+    },
+    {
+      title: "Other Simple Projects",
+      description:
+        "Simple projects of sample web pages , to-do-lists and other minor projects ",
+      technologies: "React • Chart.js • Vercel Analytics • Next.js API • Python",
+      repoUrl: "https://github.com/apox-rider",
     },
   ];
 
