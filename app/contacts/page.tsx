@@ -50,7 +50,7 @@ const fullName=infor.firstName + " " + infor.middleName + " " + infor.surName;
     
     return (
         
-        <form ref={form} onSubmit={sendEmail} className="space-y-6"  >
+        <form ref={form} onSubmit={sendEmail} className="space-y-6 "  >
             <h3 className="text-2xl font-bold text-gray-900">Send Me a Message</h3>
             
             <div>
@@ -157,8 +157,8 @@ export default function ContactsPage() {
             <div className="container mx-auto px-6 lg:px-12">
 
                 <header className="text-center mb-16">
-                    <h1 className="text-5xl font-extrabold text-gray-900 mb-2 font-serif"> Wanna build something great? </h1>
-                    <p className="text-xl text-red-100">I&apos;m ready to discuss new opportunities, challenging projects, or a role on your team.</p>
+                    <h1 className=" animate-bounce text-5xl font-extrabold text-gray-900 mb-2 font-serif"> Wanna build something great? </h1>
+                    <p className="text-xl text-red-100">I&apos;m ready to discuss new opportunities, challenging projects, or a role on your team. Share ideas on any problems that could be constructive to all of us</p>
                      
                 </header>
 
@@ -173,8 +173,8 @@ export default function ContactsPage() {
 
                     <div className="space-y-8">
                         
-                        <h2 className="text-3xl font-bold text-gray-800">Direct Contact & Socials</h2>
-                        <p className="text-lg text-green-900">
+                        <h2 className="text-3xl font-bold text-gray-900">Direct Contact & Socials</h2>
+                        <p className="text-lg text-white">
                             Feel free to reach out via the form, or connect with me directly on any of these platforms.
                         </p>
 
@@ -208,8 +208,8 @@ export default function ContactsPage() {
                         </div>
 
                         <div className="text-center md:text-left pt-4">
-                            <h3 className="text-xl font-bold text-gray-800 ">Location</h3>
-                            <p className="text-lg text-green-900">Currently based in Dar es Salaam, Tanzania (EAT)</p>
+                            <h3 className="text-xl font-bold text-gray-900 ">Location</h3>
+                            <p className="text-lg text-white">Currently based in Dar es Salaam, Tanzania (EAT)</p>
                         </div>
                     </div>
                     

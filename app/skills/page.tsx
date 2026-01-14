@@ -43,19 +43,19 @@ const SkillsPage = () => {
         <Navbar/>
         <div className="relative ">
         <div id="temple-bg" className="absolute inset-0 "></div>
-        <main  className=" min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
+        <main  className="  min-h-screen relative z-10 flex h-full items-center justify-center bg-linear-to-r from-gray-900 to-gray-800opacity-100 ">
             <div className="container mx-auto px-6 lg:px-12">
 
                 <header className="text-center mb-16">
                     <h1 className="text-5xl font-extrabold text-gray-900 mb-2 font-serif">My Tech Speciality</h1>
-                    <p className="text-xl text-orange-800">The core technologies and strategic mastery that drive Cosmic to it's development.</p>
+                    <p className="text-xl text-orange-200">The core technologies and strategic mastery that drive Cosmic to it's development.</p>
                 </header>
 
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16 items-start">
                     
 
-                    <div className="md:col-span-1 space-y-8  top-20 p-6 bg-white rounded-xl shadow-xl border-t-4 border-emerald-600">
+                    <div className="md:col-span-1 space-y-8  top-20 p-6 bg-amber-200 rounded-xl shadow-xl border-t-4 border-emerald-600">
                         <h2 className="text-2xl font-bold text-gray-800">The Architect's Toolkit</h2>
                         
                         <p className="text-gray-700">
@@ -77,10 +77,10 @@ const SkillsPage = () => {
                     </div>
 
 
-                    <div className="md:col-span-2 space-y-10">
+                    <div className="md:col-span-2 space-y-10 ">
                         
 
-                        <div>
+                        <div >
                             <h3 className="text-3xl font-extrabold text-gray-900 mb-6 border-b pb-2">Frontend & UI/UX</h3>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <SkillItem icon={tool} name="React.js" description="Expert level component-based architecture and custom hooks." />
@@ -105,7 +105,7 @@ const SkillsPage = () => {
                         <div className='mb-4'>
                             <h3 className="text-3xl font-extrabold text-gray-900 mb-6 border-b pb-2">Data, Testing & DevOps</h3>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                                <SkillItem icon={test} name="MongoDB" description="Advanced indexing, aggregation pipelines, and schema design." />
+                                <SkillItem icon={test} name="MongoDB" description="Advanced indexing, aggregation pipelines, and schema design."/>
                                 <SkillItem icon={test} name="Docker" description="Containerization for consistent and reliable development and deployment." />
                                 <SkillItem icon={test} name="Git/GitHub" description="Complex branching strategies (Gitflow) and code reviews." />
                                 <SkillItem icon={test} name="Jest / React Testing" description="Unit, integration, and E2E testing for robust applications." />
