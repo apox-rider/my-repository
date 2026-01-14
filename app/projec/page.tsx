@@ -88,7 +88,8 @@ const ProjectsPage = () => {
     {
       title: "Cosmic Platform Core",
       description:
-        "Flagship web application powering Cosmic — secure dashboards, real-time features, admin controls and scalable architecture which aims at boosting up the main thing into transactional relation between people within Africa, aiming for the future world-wide transactional relation making it easy for money to flow in a secure manner.",
+        "Flagship web application powering Cosmic — secure dashboards, real-time features, admin controls and scalable architecture which aims at boosting up the main thing into transactional relation between people within Africa, aiming for the future world-wide transactional relation making it easy for money to flow in a secure manner. ...The project is still in its progress and COMING SOON"
+        ,
       technologies: "Next.js 14 • TypeScript • Tailwind • Node.js • MongoDB • WebSockets",
       liveUrl: "#",
       repoUrl: "https://github.com/apox-rider/frontend-cosmic-repo",
